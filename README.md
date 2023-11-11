@@ -27,6 +27,7 @@
 - Download Go-Lang Compiler
 - Install Go-Lang Compiler
 - Check using the : go version
+![Alt text](image.png)
 
 ### Text Editor or IDE
 - Visual Studio Code
