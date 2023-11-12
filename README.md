@@ -37,4 +37,26 @@
 - Projects in Go-Lang, usually referred to as modules
 - To create a module, we can use the following command in the folder where we will create the module: go mod init nama-module
 - There are many features of Go-Lang Modules, but we will discuss them in a special class about Go-Lang Modules.
-![go mod init](assets/mod-init.png)
+![go mod init](assets/modinit.png)
+
+## Hello World program
+
+### Main Function
+- Go-Lang, it is similar to the C/C++ programming language, where there needs to be a main function.
+- Main function is a function that will be executed when the program runs.
+- To create a function, we can use the func keyword.
+- Main function must be contained in the main package
+- Semicolon in Golang, is not mandatory, meaning we can add semicolon or not, at the end of our program code.
+![Main Function](assets/mainfunction.png)
+
+### Println
+- To write a post, we need to import the fmt module first. 
+- Similar to when we learn Java
+- The material about import, we will discuss in a separate section
+![Hello World Program](assets/helloworldprogram.png)
+
+### Go-Lang File Compilation
+![go build](assets/build.png)
+
+### Running Without Compilation
+![go run](assets/run.png)
