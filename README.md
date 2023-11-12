@@ -32,3 +32,9 @@
 ### Text Editor or IDE
 - Visual Studio Code
 - JetBrains GoLand
+
+## Creating a Project
+- Projects in Go-Lang, usually referred to as modules
+- To create a module, we can use the following command in the folder where we will create the module: go mod init nama-module
+- There are many features of Go-Lang Modules, but we will discuss them in a special class about Go-Lang Modules.
+![go mod init](assets/mod-init.png)
