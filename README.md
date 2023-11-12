@@ -60,3 +60,22 @@
 
 ### Running Without Compilation
 ![go run](assets/run.png)
+
+## Multiple Main Function
+- Di Golang, function dalam module / project adalah unik, artinya kita tidak boleh membuat nama function yang sama
+- Oleh karena itu, jika kita membuat file baru, misal sample.go, lalu membuat nama function yang sama yaitu main
+- Maka kita tidak bisa melakukan build module, karena main function tersebut duplikat dengan yang ada di main function helloworld.go
+
+### Sample
+![sample.go code](assets/samplecode.png)
+
+### Compile Error
+![Compile Error](assets/compileerror.png)
+
+### The solution?
+- Because now we are still in the learning phase, therefore we will not build the project module first.
+- Now we will focus on running the Golang files one by one, so there will be no errors if we run the files one by one.
+- But REMEMBER, in reality later, when we create a project, we will only create one main function.
+
+### Running Golang
+![Running Golang](assets/runninggolang.png)
