@@ -64,7 +64,7 @@
 ## Multiple Main Function
 - In Golang, functions in a module / project are unique, meaning that we cannot create the same function name.
 - Therefore, if we create a new file, for example sample.go, then create the same function name, namely main
-- Maka kita tidak bisa melakukan build module, karena main function tersebut duplikat dengan yang ada di main function helloworld.go
+- Then we can't build the module, because the main function duplicates the one in the helloworld.go main function.
 
 ### Sample
 ![sample.go code](assets/samplecode.png)
